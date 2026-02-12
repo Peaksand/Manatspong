@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - วิทยาลัยอาชีวศึกษาฉะเชิงเทรา</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ============= ส่วนหัว (Header) ============= -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span>📞 02-123-4567</span>
+                    <span>📧 cvc-cha.ac.th</span>
+                </div>
+                <div class="quick-links">
+                    <span>🌐 EN | TH</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="logo-section">
+                    <div class="logo">🎓</div>
+                    <div class="school-name">
+                        <h1>โรงเรียนสาธิตมหาวิทยาลัย</h1>
+                        <p>Demonstration School University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="courses.html">หลักสูตร</a></li>
+                <li><a href="staff.html">บุคลากร</a></li>
+                <li><a href="activities.html">กิจกรรม</a></li>
+                <li><a href="news.html">ข่าวสาร</a></li>
+                <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ============= ส่วนเนื้อหา (Main Content) ============= -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h2>ติดต่อเรา</h2>
+                <p>สอบถามข้อมูล หรือสมัครเรียน</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="container">
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h3>ข้อมูลติดต่อ</h3>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>ที่อยู่</h4>
+                            <p>123 ถนนพระราม 4 แขวงปทุมวัน<br>เขตปทุมวัน กรุงเทพฯ 10330</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>โทรศัพท์</h4>
+                            <p>02-123-4567<br>02-123-4568 (สำนักงาน)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">📠</div>
+                        <div>
+                            <h4>แฟกซ์</h4>
+                            <p>02-123-4569</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>อีเมล</h4>
+                            <p>info@school.ac.th<br>admission@school.ac.th</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h4>เวลาทำการ</h4>
+                            <p>จันทร์ - ศุกร์: 08:00 - 16:30 น.<br>เสาร์ - อาทิตย์: ปิดทำการ</p>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="map-placeholder">
+                        <div class="map-icon">🗺️</div>
+                        <p>แผนที่โรงเรียน</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h3>ส่งข้อความถึงเรา</h3>
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label>ชื่อ-นามสกุล *</label>
+                            <input type="text" placeholder="กรุณากรอกชื่อ-นามสกุล" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>อีเมล *</label>
+                                <input type="email" placeholder="example@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>เบอร์โทรศัพท์ *</label>
+                                <input type="tel" placeholder="0X-XXXX-XXXX" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>หัวข้อเรื่อง *</label>
+                            <select required>
+                                <option value="">เลือกหัวข้อ</option>
+                                <option value="admission">สอบถามเกี่ยวกับการสมัครเรียน</option>
+                                <option value="curriculum">สอบถามเกี่ยวกับหลักสูตร</option>
+                                <option value="activities">สอบถามเกี่ยวกับกิจกรรม</option>
+                                <option value="other">อื่นๆ</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>รายละเอียด *</label>
+                            <textarea rows="6" placeholder="กรุณากรอกรายละเอียดที่ต้องการสอบถาม" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Contact Section -->
+        <section class="quick-contact-section">
+            <div class="container">
+                <h2 class="section-title">ติดต่อแผนกต่างๆ</h2>
+                <div class="departments-grid">
+                    <div class="dept-card">
+                        <div class="dept-icon">📝</div>
+                        <h4>แผนกรับสมัคร</h4>
+                        <p>โทร: 02-123-4570<br>อีเมล: admission@school.ac.th</p>
+                    </div>
+                    <div class="dept-card">
+                        <div class="dept-icon">💰</div>
+                        <h4>แผนกการเงิน</h4>
+                        <p>โทร: 02-123-4571<br>อีเมล: finance@school.ac.th</p>
+                    </div>
+                    <div class="dept-card">
+                        <div class="dept-icon">📚</div>
+                        <h4>ฝ่ายวิชาการ</h4>
+                        <p>โทร: 02-123-4572<br>อีเมล: academic@school.ac.th</p>
+                    </div>
+                    <div class="dept-card">
+                        <div class="dept-icon">👥</div>
+                        <h4>ฝ่ายกิจการนักเรียน</h4>
+                        <p>โทร: 02-123-4573<br>อีเมล: student@school.ac.th</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============= ส่วนท้าย (Footer) ============= -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">🎓</div>
+                <h3>โรงเรียนสาธิตมหาวิทยาลัย</h3>
+                <p>สถานศึกษาที่มุ่งเน้นการพัฒนาผู้เรียนให้มีคุณภาพ พร้อมเป็นพลเมืองที่ดีของสังคม</p>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📷</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📺</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>เมนูหลัก</h3>
+                <a href="index.html">หน้าแรก</a>
+                <a href="about.html">เกี่ยวกับโรงเรียน</a>
+                <a href="courses.html">หลักสูตรการเรียน</a>
+                <a href="contact.html">รับสมัครนักเรียน</a>
+                <a href="news.html">ข่าวสารและกิจกรรม</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>บริการ</h3>
+                <a href="#">ระบบสารสนเทศ</a>
+                <a href="#">ห้องสมุดออนไลน์</a>
+                <a href="#">E-Learning</a>
+                <a href="#">ตรวจสอบผลการเรียน</a>
+                <a href="#">ชำระค่าเล่าเรียน</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>ติดต่อเรา</h3>
+                <p>📍 123 ถนนพระราม 4 เขตปทุมวัน กรุงเทพฯ 10330</p>
+                <p>📞 โทร: 02-123-4567</p>
+                <p>📠 แฟกซ์: 02-123-4568</p>
+                <p>📧 อีเมล: info@school.ac.th</p>
+                <p>🕐 เปิดทำการ: จันทร์-ศุกร์ 08:00-16:30 น.</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2568 โรงเรียนสาธิตมหาวิทยาลัย | พัฒนาโดยฝ่ายเทคโนโลยีสารสนเทศ | สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+</body>
+</html>
